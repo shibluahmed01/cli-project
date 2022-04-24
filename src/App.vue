@@ -4,7 +4,6 @@
       <div class="col-xs-12">
         <app-user></app-user>
       </div>
-      <p>{{ name }}</p>
     </div>
   </div>
 </template>
@@ -13,11 +12,6 @@
 import User from "./components/User.vue";
 
 export default {
-  data() {
-    return {
-      name: "Max",
-    };
-  },
   components: {
     appUser: User,
   },
